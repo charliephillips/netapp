@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+open OUTPUT, '>', "output.txt" or die $!;
+STDOUT->fdopen( \*OUTPUT, 'w' ) or die $!;
+
 use LWP::Simple;
 use JSON qw( decode_json );
 
