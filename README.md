@@ -14,3 +14,5 @@ chmod +x problem2.pl
 
 # here {list of symbols} is a new line delimeted list of stock symbols
 ./problem2.pl {list of symbols}
+
+# This will create a file called output.txt with the results
