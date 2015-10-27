@@ -12,5 +12,5 @@ To execute problem2.pl run in a terminal the followiing commands:
 # this only needs to be dome the first time if it isn't already executable
 chmod +x problem2.pl
 
-# here {list of symbols}
+# here {list of symbols} is a new line delimeted list of stock symbols
 ./problem2.pl {list of symbols}
